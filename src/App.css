@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+
+.app {
+padding: 20px;
+}
+
+.scoreboard {
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+  
+.card {
+border: 1px solid #ccc;
+border-radius: 8px;
+padding: 10px;
+cursor: pointer;
+background-color: white;
+transition: transform 0.2s;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+.card img {
+width: 100px;
+height: 100px;
+}
