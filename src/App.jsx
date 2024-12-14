@@ -40,6 +40,7 @@ const App = () => {
   const handleCardClick = (id) => {
     if (clickedCards.includes(id)) {
       //Reset if the same card is clicked again
+      alert('You already chose this card! Try again');
       setScore(0);
       setClickedCards([]);
     } else {
